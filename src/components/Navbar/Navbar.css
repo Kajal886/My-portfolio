@@ -1,0 +1,90 @@
+
+.NavbarItems {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust z-index as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101522;
+  height: 80px;
+  font-size: 1.2rem;
+}
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.logo {
+  margin-right: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-menu li {
+  margin: 0 1rem;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  transition: color 0.3s ease; /* Add transition effect */
+}
+
+.nav-menu li a:hover {
+  color: #feda6a; /* Change color on hover */
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    margin-right: 24px;
+  }
+
+  .menu-icon i {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #101522;
+  }
+
+  .nav-menu.active li {
+    margin: 1rem 0;
+  }
+
+  .nav-menu.active li a {
+    padding: 1.5rem;
+    width: 100%;
+  }
+}
+
+

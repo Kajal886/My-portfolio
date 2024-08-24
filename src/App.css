@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  /* overflow-x: hidden; */
+  
+}
+::selection {
+  background-color: #e45447;
+  color: #fff;
+}
+/* App.css */
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=900&t=st=1717605370~exp=1717605970~hmac=45725a42b7d4e4df391b1b51d8b4a7de813e10dca770e671c34af9156e8428ff');
+  background-size: cover; /* Adjust as per your requirement 
+  background-position: center;  Adjust as per your requirement 
+  background-repeat: no-repeat;
+  
+} */
+
+/* .App {
+  text-align: center;
+} */
