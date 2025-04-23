@@ -11,6 +11,20 @@ class ProjectWork extends Component {
         technologies: 'React, CSS, HTML, javscript, bootstrap, etc',
         demoLink: 'https://matchedcommunity.com/',
         githubLink: 'https://matchedcommunity.com/'
+      },
+      {
+        title: 'Grit Leadership',
+        description: 'Student, Coach survey',
+        technologies: 'React, CSS, HTML, Javscript, Typescript, bootstrap, etc',
+        demoLink: 'https://app.gritleadershipea.com/',
+        githubLink: ''
+      },
+      {
+        title: '918 Booking',
+        description: '918 was first developed in 2020 as a smart app to enhance food and beverage sales at golf courses throughout North America. With full intentions to disrupt the status quo of waiting for a meal or drinks on the course, 918 put the ability to order whenever and wherever in the palm of your hand.',
+        technologies: 'React, CSS, HTML, Typescript',
+        demoLink: 'https://918booking.com/',
+        githubLink: ''
       }
       // Add more projects as needed
     ];
