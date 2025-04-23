@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import "./App.css";
 import About from "./components/AboutMe/About";
-import Services from "./components/Service/Services";
 import Resume from "./components/Resume/Resume";
 import ProjectWork from "./components/Project/Project";
 import Contact from "./components/ContactMe/Contact";
@@ -18,10 +17,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Home />
-        {/* <Services /> */}
         <hr/>
         <About />
-        {/* <hr/> */}
         <Resume />
         <hr/>
         <ProjectWork />
@@ -33,7 +30,6 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/home" component={Home} />
         <Route path="/resume" component={Resume} />
-        <Route path="/services" component={Services} />
         <Route path="/projects" component={ProjectWork} />
         <Route path="/contact" component={Contact} />
         <Route path="/education" component={Education} />
